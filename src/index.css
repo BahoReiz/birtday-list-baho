@@ -22,9 +22,14 @@ main {
     box-shadow: 8px 4px 4px orange;
 }
 
+.container h1 {
+    color: green;
+}
+
 .container h3{
     display: flex;
     margin-bottom: 2rem;
+    color: firebrick;
 }
 
 .container button{
@@ -42,4 +47,8 @@ main {
 
 button:hover{
     background-color: rgba(236, 109, 50, 0.771);
+}
+
+article p {
+    color: firebrick;
 }
